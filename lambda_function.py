@@ -8,7 +8,7 @@ def lambda_handler(event, context):
     return url
 
 def generate_url():
-    max_num = 507
+    max_num = 528
     image_prefix = "gazou_"
 
     if random.randint(0, 1):
